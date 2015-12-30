@@ -1,0 +1,169 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/No51/Desktop/Git/workspace/myexapp',
+5 verbose install   [ 'express', 'jade', 'pg' ] ]
+6 info preinstall myexapp@0.0.1
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'express@3.2.6', null ]
+9 verbose cache add name=undefined spec="express@3.2.6" args=["express@3.2.6",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'express@3.2.6',
+10 verbose parsed url   path: 'express@3.2.6',
+10 verbose parsed url   href: 'express@3.2.6' }
+11 verbose cache add [ 'jade@*', null ]
+12 verbose cache add name=undefined spec="jade@*" args=["jade@*",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'jade@*',
+13 verbose parsed url   path: 'jade@*',
+13 verbose parsed url   href: 'jade@*' }
+14 verbose cache add name="express" spec="3.2.6" args=["express","3.2.6"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '3.2.6',
+15 verbose parsed url   path: '3.2.6',
+15 verbose parsed url   href: '3.2.6' }
+16 verbose addNamed [ 'express', '3.2.6' ]
+17 verbose addNamed [ '3.2.6', '3.2.6' ]
+18 verbose cache add [ 'pg@*', null ]
+19 verbose cache add name=undefined spec="pg@*" args=["pg@*",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'pg@*',
+20 verbose parsed url   path: 'pg@*',
+20 verbose parsed url   href: 'pg@*' }
+21 verbose cache add name="jade" spec="*" args=["jade","*"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '*',
+22 verbose parsed url   path: '*',
+22 verbose parsed url   href: '*' }
+23 verbose addNamed [ 'jade', '*' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile fdae4232-express-3-2-6 express@3.2.6
+26 verbose lock express@3.2.6 /tmp/npm-501/.npm/fdae4232-express-3-2-6.lock
+27 silly lockFile ad03ed78-jade jade@*
+28 verbose lock jade@* /tmp/npm-501/.npm/ad03ed78-jade.lock
+29 verbose cache add name="pg" spec="*" args=["pg","*"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '*',
+30 verbose parsed url   path: '*',
+30 verbose parsed url   href: '*' }
+31 verbose addNamed [ 'pg', '*' ]
+32 verbose addNamed [ null, '*' ]
+33 silly lockFile 8dbe2238-pg pg@*
+34 verbose lock pg@* /tmp/npm-501/.npm/8dbe2238-pg.lock
+35 silly addNameRange { name: 'jade', range: '*', hasData: false }
+36 silly addNameRange { name: 'pg', range: '*', hasData: false }
+37 verbose request where is /express
+38 verbose request registry https://registry.npmjs.org/
+39 verbose request id bba36eaa17dbf2bd
+40 verbose url raw /express
+41 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+42 verbose url resolved https://registry.npmjs.org/express
+43 verbose request where is https://registry.npmjs.org/express
+44 info trying registry request attempt 1 at 12:29:47
+45 http GET https://registry.npmjs.org/express
+46 verbose request where is /jade
+47 verbose request registry https://registry.npmjs.org/
+48 verbose url raw /jade
+49 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+50 verbose url resolved https://registry.npmjs.org/jade
+51 verbose request where is https://registry.npmjs.org/jade
+52 info trying registry request attempt 1 at 12:29:47
+53 http GET https://registry.npmjs.org/jade
+54 verbose request where is /pg
+55 verbose request registry https://registry.npmjs.org/
+56 verbose url raw /pg
+57 verbose url resolving [ 'https://registry.npmjs.org/', './pg' ]
+58 verbose url resolved https://registry.npmjs.org/pg
+59 verbose request where is https://registry.npmjs.org/pg
+60 info trying registry request attempt 1 at 12:29:47
+61 http GET https://registry.npmjs.org/pg
+62 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+63 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+64 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+65 info trying registry request attempt 2 at 12:29:57
+66 http GET https://registry.npmjs.org/express
+67 info trying registry request attempt 2 at 12:29:57
+68 http GET https://registry.npmjs.org/jade
+69 info trying registry request attempt 2 at 12:29:57
+70 http GET https://registry.npmjs.org/pg
+71 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+72 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+73 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+74 info trying registry request attempt 3 at 12:30:57
+75 http GET https://registry.npmjs.org/express
+76 info trying registry request attempt 3 at 12:30:57
+77 http GET https://registry.npmjs.org/jade
+78 info trying registry request attempt 3 at 12:30:57
+79 http GET https://registry.npmjs.org/pg
+80 silly lockFile fdae4232-express-3-2-6 express@3.2.6
+81 silly lockFile fdae4232-express-3-2-6 express@3.2.6
+82 silly lockFile ad03ed78-jade jade@*
+83 silly lockFile ad03ed78-jade jade@*
+84 silly lockFile 8dbe2238-pg pg@*
+85 silly lockFile 8dbe2238-pg pg@*
+86 error network getaddrinfo ENOTFOUND
+86 error network This is most likely not a problem with npm itself
+86 error network and is related to network connectivity.
+86 error network In most cases you are behind a proxy or have bad network settings.
+86 error network
+86 error network If you are behind a proxy, please make sure that the
+86 error network 'proxy' config is set properly.  See: 'npm help config'
+87 error System Darwin 14.0.0
+88 error command "node" "/usr/local/bin/npm" "install"
+89 error cwd /Users/No51/Desktop/Git/workspace/myexapp
+90 error node -v v0.10.33
+91 error npm -v 1.4.28
+92 error syscall getaddrinfo
+93 error code ENOTFOUND
+94 error errno ENOTFOUND
+95 verbose exit [ 1, true ]
